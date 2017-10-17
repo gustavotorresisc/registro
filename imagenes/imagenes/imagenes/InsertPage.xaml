@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="imagenes.InsertPage">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"></ColumnDefinition>
+                        <ColumnDefinition ></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Label Text="NOMBRE" Grid.Column="0" Grid.Row="0" VerticalOptions="Center"/>
+                    <Entry x:Name="Entry_Nom" Grid.Column="1" Grid.Row="0"/>
+                    
+                    <Label Text="APELLIDOS" Grid.Column="0" Grid.Row="1"/>
+                    <Entry x:Name="Entry_Ape" Grid.Column="1" Grid.Row="1"/>
+                    
+                    <Label Text="DIRECCION" Grid.Column="0" Grid.Row="2"/>
+                    <Entry x:Name="Entry_Dir" Grid.Column="1" Grid.Row="2"/>
+
+                    <Label Text="TELEFONO" Grid.Column="0" Grid.Row="3"/>
+                    <Entry x:Name="Entry_Tel" Grid.Column="1" Grid.Row="3"/>
+
+                    <Label Text="CARRERA" Grid.Column="0" Grid.Row="4"/>
+                    <Entry x:Name="Entry_carr" Grid.Column="1" Grid.Row="4"/>
+
+                    <Label Text="SEMESTRE" Grid.Column="0" Grid.Row="5"/>
+                    <Entry x:Name="Entry_Sem" Grid.Column="1" Grid.Row="5"/>
+
+                    <Label Text="MATRICULA" Grid.Column="0" Grid.Row="6"/>
+                    <Entry x:Name="Entry_Matric" Grid.Column="1" Grid.Row="6"/>
+
+                    <Label Text="CORREO" Grid.Column="0" Grid.Row="7"/>
+                    <Entry x:Name="Entry_Cor" Grid.Column="1" Grid.Row="7"/>
+
+                    <Label Text="GITHUB" Grid.Column="0" Grid.Row="8"/>
+                    <Entry x:Name="Entry_Git" Grid.Column="1" Grid.Row="8"/>
+
+                    <Button Text="Insertar_Registro" Grid.Column="0" Grid.Row="9" Clicked="Insertar_Clicked" />
+                </Grid>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

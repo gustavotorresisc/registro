@@ -1,0 +1,2 @@
+C:\Users\Gustavo\source\repos\imagenes\imagenes\imagenes.Android\obj\Debug\imagenes.Android.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo\source\repos\imagenes\imagenes\imagenes.Android\obj\Debug\imagenes.Android.csproj.CoreCompileInputs.cache
